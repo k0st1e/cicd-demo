@@ -9,4 +9,14 @@ public class PageController {
     public String index() {
         return "home";
     }
+
+    @GetMapping("/page-one")
+    public String pageOne() {
+        return "page-one";
+    }
+
+    @GetMapping("/page-two")
+    public String pageTwo() {
+        return "page-two";
+    }
 }
