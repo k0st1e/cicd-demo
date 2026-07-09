@@ -14,9 +14,6 @@ on:
   pull_request:
     branches: [ "master" ]
 
-permissions:
-  contents: write
-
 jobs:
   build:
 
@@ -30,6 +27,10 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
+
+    # Redundant but this is for learning purposes.
+    - name: Test with Maven
+      run: mvn -B test --file pom.xml
 
     - name: Build with Maven
       run: mvn -B package --file pom.xml
