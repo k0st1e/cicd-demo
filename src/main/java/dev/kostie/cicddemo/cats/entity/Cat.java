@@ -1,4 +1,4 @@
-package dev.kostie.cicddemo.entity;
+package dev.kostie.cicddemo.cats.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
