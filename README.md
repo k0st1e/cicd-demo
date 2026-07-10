@@ -2,7 +2,7 @@
 
 ### Disclaimer
 
-This is a testing repository for CI/CD experimentation using GitHub's workflows.
+This is a learning repository for CI/CD experimentation using GitHub's Workflows and Testing with Spring.
 
 ### To-Do
 
@@ -10,10 +10,10 @@ This is a testing repository for CI/CD experimentation using GitHub's workflows.
 
 - [x] Added a teeny tiny repository unit test. 
 
-- [ ] Continue with Unit Testing and Mockito.
+- [x] Further unit tests at `@Repository` layer.
 
 - [ ] Experiment with `RestTestClient`.
 
 - [ ] Experiment with Test Containers.
 
-- [ ] Flip to CD, and automatically deploy an app to a platform like Heroku.
+- [ ] Flip to CD, and automatically deploy the app to Heroku when it builds and gets tested successfully.

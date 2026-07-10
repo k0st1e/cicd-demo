@@ -3,6 +3,7 @@ package dev.kostie.cicddemo.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
+// Dummy controller.
 @Controller
 public class CatController {
     @GetMapping("/")

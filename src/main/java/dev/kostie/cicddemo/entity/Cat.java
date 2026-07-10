@@ -9,6 +9,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+// Dummy entity to use with testing `CatRepositoryTest`.
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
