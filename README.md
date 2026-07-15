@@ -33,5 +33,3 @@ This is a repository intended for learning CI/CD and testing with Spring.
     * Separate test application properties for Hibernate to create and drop.
     * Spins a PostgreSQL container and runs an integration test.
     * REST Assured library used.
-
-- [ ] Automatically deploys to Heroku when it tests and builds successfully.
