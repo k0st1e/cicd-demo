@@ -1,3 +1,5 @@
+[![Java CI with Maven](https://github.com/k0st1e/cicd-demo/actions/workflows/ci-and-push-image.yml/badge.svg)](https://github.com/k0st1e/cicd-demo/actions/workflows/ci-and-push-image.yml)
+
 ## Spring Testing and CI/CD.
 
 ### Disclaimer
